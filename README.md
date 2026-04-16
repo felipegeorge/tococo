@@ -9,7 +9,7 @@ Apenas um arquivo por dia. Todos os arquivos são salvos no formato `ano-mes-dia
 
 _Só quis colocar aqui por diversão/recordação. Nada muito sério a ser levado._
 
-##Instalação
+## Instalação
 
 Clone este repositório e mova `tococo` para `~/.local/bin/` ou qualquer outro diretório que tenha como PATH.
 Edite `tococo` para decidir o local em que serão salvos os arquivos e também seu editor de texto (default: `micro`).
