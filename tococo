@@ -1,0 +1,16 @@
+#!/bin/bash
+
+cd ~/.merdas/"merdas colossais"/.segredo
+
+opt=$1
+opt1=$2
+
+if [ $opt == "--list" ]; then
+	ls -a
+elif [ $opt == "--show" ]; then
+	echo "Loading file ${opt1}..."
+	cat ${opt1}
+else
+	hj=$(date +%F)
+	micro ${hj}.txt
+fi
